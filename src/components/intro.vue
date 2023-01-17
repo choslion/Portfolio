@@ -1,8 +1,8 @@
 <template>
   <div>
-    <section class="section-about">
-      <div class="about-bg">
-        <h1>
+    <section class="section-intro">
+      <div class="intro-bg">
+        <h1 class="logo">
           <a href=""><img src="img/logo-white.png" alt="" /></a>
         </h1>
         <h1>
