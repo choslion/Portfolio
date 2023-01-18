@@ -1,8 +1,39 @@
+.section-intro {
+  height: calc(100vh + 200px);
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
 .intro-bg {
-  background-image: url(../img/kibuttzMain.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: calc(100vw - 17px);
+  height: 100%;
+  background-image: url(../img/back24.JPG);
+  background-size: cover;
+  background-position: 10%;
+  background-repeat: no-repeat;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
 }
 
 .logo img {
   width: 200px;
   height: 100px;
+}
+
+.intro-text {
+  font-size: 32px;
+  line-height: 36pt;
 }

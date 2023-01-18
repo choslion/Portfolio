@@ -9,13 +9,16 @@
       </ul>
     </nav>
     <div class="time">
-      <span>dasdda</span>
-      <span>15:35</span>
+      <span>현재시간</span>
+      <span v-bind="getTime()">{{ getTime }}</span>
     </div>
   </div>
 </template>
 <script>
 export default {
+  data() {
+    return {};
+  },
   methods: {
     goSection(e) {
       e.preventDefault();
@@ -27,13 +30,20 @@ export default {
         clickNav.scrollIntoView({ behavior: 'smooth' });
       }
     },
+    getTime() {
+      const date = new Date();
+      date.getHours();
+    },
   },
+  
 };
 </script>
 <style scope>
 .nav-wrap {
   display: flex;
   justify-content: space-around;
+  color: #fff;
+  background-color: darkred;
 }
 .nav-menu {
   display: flex;

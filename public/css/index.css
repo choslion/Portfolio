@@ -5,3 +5,7 @@
 @import url(project.css);
 @import url(cloning.css);
 @import url(contact.css);
+
+.point {
+  color: #04c2c9;
+}

@@ -1,1 +1,26 @@
+.section-about {
+  padding: 100px 0 130px 0;
+}
 
+.title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.underLine {
+  width: 70px;
+  height: 4px;
+  background-color: #04c2c9;
+  margin: 25px 0 100px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .section-about {
+    padding: 70px 0 70px 0;
+  }
+
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
