@@ -1,12 +1,12 @@
 <template>
   <div>
+    <link rel="stylesheet" href="css/index.css" />
     <intro id="intro" />
     <navMenu />
     <about id="about" />
     <project id="project" />
     <cloning id="cloning" />
     <contact id="contact" />
-    <link rel="stylesheet" href="css/index.css" />
   </div>
 </template>
 

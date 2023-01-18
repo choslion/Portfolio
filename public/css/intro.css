@@ -1,5 +1,5 @@
 .section-intro {
-  height: calc(100vh + 200px);
+  height: calc(100vh - 0px);
   position: relative;
   text-align: center;
   color: #fff;
@@ -14,7 +14,7 @@
   height: 100%;
   background-image: url(../img/back24.JPG);
   background-size: cover;
-  background-position: 10%;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -23,9 +23,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 50%;
 }
 
 .logo {
+  margin-bottom: 100px;
 }
 
 .logo img {
@@ -36,4 +38,19 @@
 .intro-text {
   font-size: 32px;
   line-height: 36pt;
+}
+
+.quotes {
+  margin-top: 300px;
+  z-index: 1;
+  line-height: 25pt;
+}
+
+.quote {
+  font-size: 24px;
+}
+
+.author {
+  font-size: 20px;
+  opacity: 0.8;
 }

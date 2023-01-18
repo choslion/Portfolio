@@ -1,23 +1,21 @@
 <template>
   <div>
     <section class="section-intro">
-      <!-- <div class="intro-wrap"> -->
       <div class="intro-bg"></div>
       <div class="flex">
         <h1 class="logo">
-          <a href=""><img src="img/logo-white.png" alt="" /></a>
+          <a href=""><img src="img/logo-white.png" alt="하얀조승혁" /></a>
         </h1>
         <h1 class="intro-text">
           안녕하세요, 저는 <span class="point">조승혁</span> 입니다.
           <br />
           웹 개발자가 되고 싶습니다.
         </h1>
-        <div class="quotes">
-          <h3 class="quote">{{ randomQuotes.quote }}</h3>
-          <h4 class="author">{{ randomQuotes.author }}</h4>
-        </div>
       </div>
-      <!-- </div> -->
+      <div class="quotes">
+        <h3 class="quote">{{ randomQuotes.quote }}</h3>
+        <h4 class="author">{{ randomQuotes.author }}</h4>
+      </div>
     </section>
   </div>
 </template>

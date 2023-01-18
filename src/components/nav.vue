@@ -10,14 +10,17 @@
     </nav>
     <div class="time">
       <span>현재시간</span>
-      <span v-bind="getTime()">{{ getTime }}</span>
+      <!-- <span v-bind="getTime()">{{ getTime }}</span> -->
     </div>
   </div>
 </template>
 <script>
+import { reactive, computed } from 'vue';
 export default {
   data() {
-    return {};
+    return {
+      data: '00:00:00',
+    };
   },
   methods: {
     goSection(e) {
@@ -30,12 +33,21 @@ export default {
         clickNav.scrollIntoView({ behavior: 'smooth' });
       }
     },
-    getTime() {
-      const date = new Date();
-      date.getHours();
-    },
   },
-  
+  //   setup() {
+  //   const date = new.Date();
+  //   const getTime = function() {
+  //     const hours = String(date.getHours()).padStart(2,"0");
+  //     const minutes = String(date.getMinutes()).padStart(2,"0");
+  //     const seconds = String(date.getSeconds()).padStart(2,"0");
+  //   }
+  //   return {
+  //     getTime,
+  //     hours,
+  //     minutes,
+  //     seconds,
+  //   }
+  // }
 };
 </script>
 <style scope>
