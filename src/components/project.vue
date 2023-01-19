@@ -1,12 +1,12 @@
 <template>
-  <h1 id="project">Project</h1>
-  <div class="sectionMove"></div>
+  <div>
+    <section class="section-project">
+      <div class="section-title">
+        <h1 class="title" id="project">Project</h1>
+        <div class="underLine"></div>
+      </div>
+    </section>
+  </div>
 </template>
 <script></script>
-<style scoped>
-.sectionMove {
-  width: 100%;
-  height: 930px;
-  background-color: antiquewhite;
-}
-</style>
+<style scoped></style>

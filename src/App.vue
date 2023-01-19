@@ -11,15 +11,15 @@
 </template>
 
 <script>
-import intro from './components/intro.vue';
-import navMenu from './components/nav.vue';
-import about from './components/about.vue';
-import project from './components/project.vue';
-import cloning from './components/cloning.vue';
-import contact from './components/contact.vue';
+import intro from "./components/intro.vue";
+import navMenu from "./components/nav.vue";
+import about from "./components/about.vue";
+import project from "./components/project.vue";
+import cloning from "./components/cloning.vue";
+import contact from "./components/contact.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     intro,
     navMenu,
@@ -33,7 +33,7 @@ export default {
 
 <style>
 #app {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
