@@ -1,12 +1,25 @@
 .nav-wrap {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
   color: #fff;
-  background-color: darkred;
+  background-color: #1b242f;
+  height: 50px;
   border-bottom: 3px solid #04c2c9;
 }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
 .nav-menu {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.nav-menu li {
+  margin-left: 60px;
+  cursor: pointer;
 }
