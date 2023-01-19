@@ -51,15 +51,5 @@ export default {
 };
 </script>
 <style scope>
-.nav-wrap {
-  display: flex;
-  justify-content: space-around;
-  color: #fff;
-  background-color: darkred;
-}
-.nav-menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
+
 </style>
