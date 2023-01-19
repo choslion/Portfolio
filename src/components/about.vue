@@ -7,8 +7,8 @@
       </div>
       <div class="appeal">
         <h2 class="appeal-text">항상 긍정적인 방향을 바라보는 <span class="point">사람</span></h2>
-        <h2 class="appeal-text">역지사지의 마음을 가지고 상대방을 대하는 사람 <span class="point">사람</span></h2>
-        <h2 class="appeal-text">의견을 잘 내고 나와 다른 의견에도 수용할 줄 아는 사람 <span class="point">사람</span></h2>
+        <h2 class="appeal-text">역지사지의 마음을 가지고 상대방을 대하는 <span class="point">사람</span></h2>
+        <h2 class="appeal-text">의견을 잘 내고 나와 다른 의견에도 수용할 줄 아는 <span class="point">사람</span></h2>
       </div>
       <div class="appeal-second">
         <h2 class="appeal-text appeal-point">그래서 뽑아야 할 <span class="point">사람</span></h2>
@@ -28,6 +28,8 @@
             </p>
             <span># 이스라엘 해외봉사 활동 # GS25 점장</span>
             <span># 그린컴퓨터학원 뷰(Vue)활용 프론트엔드 웹개발자 양성과정 수료</span>
+            <font-awesome-icon icon="fa-solid fa-user-secret" />
+            <font-awesome-icon icon="fa-solid fa-key" />
           </div>
         </li>
         <li class="about-skills">
