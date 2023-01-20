@@ -5,21 +5,28 @@
   background-color: #1b242f;
   height: 50px;
   border-bottom: 3px solid #04c2c9;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 .nav-menu li {
-  margin-left: 60px;
   cursor: pointer;
+  margin-left: 120px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-menu li:hover {
+  color: #04c2c9;
 }

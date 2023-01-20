@@ -3,19 +3,10 @@
   position: relative;
   text-align: center;
   color: #fff;
-}
-
-.intro-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: calc(100vw - 17px);
-  height: 100%;
-  background-image: url(../img/back24.JPG);
+  background-image: url(../img/port2.jpg);
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .flex {
@@ -27,7 +18,7 @@
 }
 
 .logo {
-  margin-bottom: 100px;
+  margin: 200px 0 60px;
 }
 
 .logo img {
@@ -38,6 +29,19 @@
 .intro-text {
   font-size: 32px;
   line-height: 36pt;
+}
+
+.button {
+  margin-top: 20px;
+  border: 2px solid #fff;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.button:hover {
+  background-color: #04c2c9;
+  border-color: #04c2c9;
 }
 
 .quotes {

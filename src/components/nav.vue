@@ -7,10 +7,10 @@
         <li v-on:click="goSection" data-target="cloning" class="toSection">Practice</li>
         <li v-on:click="goSection" data-target="contact" class="toSection">Contact</li>
       </ul>
-      <div class="time">
+      <!-- <div class="time">
         <span>현재시간</span>
-        <!-- <span v-bind="getTime()">{{ getTime }}</span> -->
-      </div>
+        <span v-bind="getTime()">{{ getTime }}</span>
+      </div> -->
     </nav>
   </div>
 </template>

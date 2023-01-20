@@ -7,6 +7,14 @@
 @import url(cloning.css);
 @import url(contact.css);
 
+.section-wrap {
+  height: auto;
+  margin: 0 auto;
+  max-width: 71.25rem;
+  padding: 4rem 2rem;
+  width: 100%;
+}
+
 .point {
   color: #04c2c9;
 }

@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="section-intro">
-      <div class="intro-bg"></div>
+      <!-- <div class="intro-bg"></div> -->
       <div class="flex">
         <h1 class="logo">
           <a href=""><img src="img/logo-white.png" alt="하얀조승혁" /></a>
@@ -11,6 +11,10 @@
           <br />
           웹 개발자가 되고 싶습니다.
         </h1>
+        <div class="button">
+          View my work
+          <font-awesome-icon icon="fa-solid fa-right-long" />
+        </div>
       </div>
       <div class="quotes">
         <h3 class="quote">{{ randomQuotes.quote }}</h3>

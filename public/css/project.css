@@ -1,0 +1,28 @@
+.project-contents {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.project-contents:nth-child(3) {
+  flex-direction: row-reverse;
+}
+
+.project-content__img {
+  width: 50%;
+}
+
+.project-content__img img {
+  width: 100%;
+}
+
+.project-content__info {
+  width: 50%;
+  line-height: 20pt;
+  padding-left: 50px;
+}
+
+.icons {
+  padding: 20px 0 0 40px;
+  cursor: pointer;
+}
