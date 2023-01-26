@@ -19,6 +19,85 @@
 .modal img {
   /* max-width: 1400px; */
 }
+/* ///////////////////////////////////////////////////// */
+
+.section-project {
+  background-color: #000;
+}
+
+.project-wrap {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 2rem;
+  padding: 3rem;
+  position: relative;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.project-date {
+  margin-bottom: 2rem;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.project-info {
+  display: flex;
+  justify-content: center;
+}
+
+.project-info__imgs {
+  width: 50%;
+  margin-right: 3rem;
+}
+
+.project-info__imgs img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.project-info__contents {
+  width: 45%;
+  line-height: 20pt;
+}
+
+.project-info__contents p {
+  margin-top: 1rem;
+}
+
+.project-contents__ul {
+  margin-left: 2rem;
+  padding-left: 0;
+}
+
+.project-contents__li {
+  display: flex;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.project-contents__li span {
+  position: absolute;
+  left: -2rem;
+}
+
+.project-contents__li a {
+  word-break: break-all;
+}
+
+.project__main-func {
+  font-weight: 900;
+  width: 5.5rem;
+}
+
+/* //////////////////////////////////////////////////// */
 
 .project-contents {
   display: flex;
