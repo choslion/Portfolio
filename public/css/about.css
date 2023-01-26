@@ -1,7 +1,3 @@
-/* .section-about {
-  padding: 100px 0 130px 0;
-} */
-
 .section-title {
   display: flex;
   align-items: center;
@@ -54,6 +50,8 @@
   width: 50%;
   padding: 0 50px 0 50px;
   flex-direction: column;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .about-me img {
@@ -121,13 +119,137 @@
   padding: 0 5px 0 0;
 }
 
-@media screen and (max-width: 600px) {
-  /* .section-about {
-    padding: 70px 0 70px 0;
-  } */
+@media screen and (max-width: 1200px) {
+  .underLine {
+    width: 70px;
+    margin: 25px 0 50px 0;
+  }
 
-  .title {
-    font-size: 30px;
+  .appeal-text {
+    font-size: 24px;
+    line-height: 30pt;
+  }
+  .appeal-point {
+    margin-top: 30px;
+  }
+
+  .appeal-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .appeal-second .logo {
+    margin-top: 30px;
+  }
+
+  .about-detail {
+    flex-direction: column;
+  }
+
+  .about-me {
+    padding: 0 50px 50px 50px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .about-me img {
+    width: 300px;
+  }
+
+  .about-me__text {
+    flex-direction: column;
+  }
+
+  .about-me__text p {
+    line-height: 20pt;
+    padding: 20px 0;
+    box-sizing: border-box;
+  }
+
+  .about-me__text span {
+    line-height: 20pt;
+  }
+
+  .about-skills {
+    width: 100%;
+    padding-left: 50px;
+  }
+
+  .who {
+    box-sizing: border-box;
+    padding-top: 20px;
     font-weight: 700;
+  }
+
+  .skill {
+    background-color: #eee;
+    max-width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 28px;
+    margin: 0 0 15px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .underLine {
+    margin: 20px 0 30px 0;
+  }
+
+  .appeal-text {
+    font-size: 18px;
+    line-height: 25pt;
+  }
+
+  .about-me {
+    padding: 0 0 30px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .percent {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .appeal-text {
+    font-size: 16px;
+    line-height: 20pt;
+  }
+
+  .about-me img {
+    width: 250px;
+  }
+
+  .about-me__text p {
+    font-size: 14px;
+  }
+
+  .about-me__text span {
+    font-size: 12px;
+  }
+
+  .about-skills {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .skill {
+    font-size: 11px;
+    height: 22px;
+    margin: 0 0 15px 0;
+  }
+
+  .skill-name {
+    width: 60px;
+    height: 100%;
   }
 }

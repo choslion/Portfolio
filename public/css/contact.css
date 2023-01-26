@@ -18,3 +18,9 @@
 .sns-box .icons:first-child {
   padding: 0;
 }
+
+@media screen and (max-width: 600px) {
+  .contact-box {
+    line-height: 25pt;
+  }
+}

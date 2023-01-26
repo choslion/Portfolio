@@ -61,8 +61,8 @@
 
 @media screen and (max-width: 600px) {
   .logo img {
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 75px;
   }
 
   .intro-text {
@@ -82,7 +82,7 @@
   }
 
   .quote {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .author {

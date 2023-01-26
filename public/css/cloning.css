@@ -4,14 +4,14 @@
 }
 
 .practice-img__message img {
-  width: 380px;
+  width: 358.6666px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   /* height: 300px; */
   box-sizing: border-box;
 }
 
 .practice-img__message .kokoa-clone {
-  width: 1140px;
+  width: 1076px;
 }
 
 @media screen and (max-width: 1156px) {
@@ -20,12 +20,26 @@
   }
 
   .practice-img__message .kokoa-clone {
-    width: 760px;
+    width: 717px;
   }
 }
 
 @media screen and (max-width: 776px) {
+  .practice-img__message img {
+    box-shadow: 0 4px 4px -3px black;
+    margin-bottom: 10px;
+  }
   .practice-img__message .kokoa-clone {
-    width: 380px;
+    width: 358.66px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .practice-img__message img {
+    width: 280px;
+  }
+
+  .practice-img__message .kokoa-clone {
+    width: 280px;
   }
 }
