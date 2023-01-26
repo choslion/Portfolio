@@ -58,3 +58,34 @@
   font-size: 20px;
   opacity: 0.8;
 }
+
+@media screen and (max-width: 600px) {
+  .logo img {
+    width: 200px;
+    height: 100px;
+  }
+
+  .intro-text {
+    font-size: 20px;
+    line-height: 26pt;
+  }
+
+  .button {
+    margin-top: 10px;
+    padding: 15px 20px;
+  }
+
+  .quotes {
+    /* margin-top: 300px;
+    z-index: 1;
+    line-height: 25pt; */
+  }
+
+  .quote {
+    font-size: 16px;
+  }
+
+  .author {
+    font-size: 14px;
+  }
+}

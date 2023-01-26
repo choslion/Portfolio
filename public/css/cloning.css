@@ -1,0 +1,31 @@
+.practice-img__wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.practice-img__message img {
+  width: 380px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* height: 300px; */
+  box-sizing: border-box;
+}
+
+.practice-img__message .kokoa-clone {
+  width: 1140px;
+}
+
+@media screen and (max-width: 1156px) {
+  .practice-img__wrap {
+    justify-content: center;
+  }
+
+  .practice-img__message .kokoa-clone {
+    width: 760px;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .practice-img__message .kokoa-clone {
+    width: 380px;
+  }
+}

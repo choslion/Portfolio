@@ -6,6 +6,7 @@
         <li v-on:click="goSection" data-target="project" class="toSection">Project</li>
         <li v-on:click="goSection" data-target="cloning" class="toSection">Practice</li>
         <li v-on:click="goSection" data-target="contact" class="toSection">Contact</li>
+        <font-awesome-icon icon="fa-solid fa-bars" size="2x" />
       </ul>
       <!-- <div class="time">
         <span>현재시간</span>

@@ -1,0 +1,20 @@
+.section-contact {
+  background-color: #252934;
+}
+.section-contact .title {
+  color: #fff;
+}
+
+.contact-box {
+  flex-direction: column;
+  color: #fff;
+  line-height: 45pt;
+}
+
+.contact-box .logo {
+  margin: 0;
+}
+
+.sns-box .icons:first-child {
+  padding: 0;
+}

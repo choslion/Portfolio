@@ -122,9 +122,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  .section-about {
+  /* .section-about {
     padding: 70px 0 70px 0;
-  }
+  } */
 
   .title {
     font-size: 30px;
