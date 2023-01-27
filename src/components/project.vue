@@ -75,7 +75,7 @@ export default {
         feeling: '의견조율, 소통의 중요성에 대해 알게 되었습니다.',
         contribution: '33.33%',
         mainFunc: '회원가입, 로그인, 게시글 작성, 정보전달',
-        url: '',
+        url: 'http://codebuild-seoultakju-service-role.ap-northeast-1.elasticbeanstalk.com/',
         github: 'https://github.com/choslion/seoulTakju-personal',
         figma: '',
         useSkills: 'HTML, CSS, JavaScript, MySQL, Node.js',
