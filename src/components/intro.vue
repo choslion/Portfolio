@@ -11,7 +11,7 @@
           <br />
           웹 개발자가 되고 싶습니다.
         </h1>
-        <div class="button">
+        <div class="button" v-on:click="goSection" data-target="about">
           View my work
           <font-awesome-icon icon="fa-solid fa-right-long" />
         </div>
