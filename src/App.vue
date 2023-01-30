@@ -32,7 +32,9 @@ export default {
     contact,
   },
   created() {
-    AOS.init();
+    AOS.init({
+      once: true,
+    });
   },
 };
 </script>

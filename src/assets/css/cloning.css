@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 450px) {
   .practice-img__message img {
-    width: 280px;
+    width: 260px;
   }
 
   .practice-img__message:last-child {

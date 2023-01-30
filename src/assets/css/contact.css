@@ -15,12 +15,17 @@
   margin: 0;
 }
 
-.sns-box .icons:first-child {
-  padding: 0;
+.sns-box a:first-child {
+  padding-right: 10px;
 }
 
-@media screen and (max-width: 600px) {
+.sns-box a:last-child {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
   .contact-box {
-    line-height: 25pt;
+    line-height: 32pt;
+    font-size: 0.8rem;
   }
 }

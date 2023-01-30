@@ -3,23 +3,23 @@
     <section class="section-about">
       <div class="section-wrap">
         <div class="section-title">
-          <h1 id="about" class="title" data-aos="fade" data-aos-duration="700" data-aos-offset="400">About</h1>
+          <h1 id="about" class="title" data-aos="fade" data-aos-duration="700">About</h1>
           <div class="underLine"></div>
         </div>
         <div class="appeal">
-          <h2 class="appeal-text" data-aos="fade-up" data-aos-duration="700" data-aos-offset="400">항상 <span class="point">긍정적인</span> 방향을 바라보는 사람</h2>
-          <h2 class="appeal-text" data-aos="fade-up" data-aos-duration="1400" data-aos-offset="400"><span class="point">역지사지</span>의 마음을 가지고 상대방을 대하는 사람</h2>
-          <h2 class="appeal-text" data-aos="fade-up" data-aos-duration="2100" data-aos-offset="400">의견을 잘 내고 나와 다른 의견에도 <span class="point">수용</span>할 줄 아는 사람</h2>
+          <h2 class="appeal-text" data-aos="fade-up" data-aos-duration="700">항상 <span class="point">긍정적인</span> 방향을 바라보는 사람</h2>
+          <h2 class="appeal-text" data-aos="fade-up" data-aos-duration="1400"><span class="point">역지사지</span>의 마음을 가지고 상대방을 대하는 사람</h2>
+          <h2 class="appeal-text" data-aos="fade-up" data-aos-duration="2100">의견을 잘 내고 나와 다른 의견에도 <span class="point">수용</span>할 줄 아는 사람</h2>
         </div>
         <div class="appeal-second">
-          <h2 class="appeal-text appeal-point" data-aos="zoom-out-up" data-aos-duration="1500" data-aos-offset="700">그래서 뽑아야 할 <span class="point">사람</span></h2>
+          <h2 class="appeal-text appeal-point" data-aos="zoom-out-up" data-aos-duration="1500">그래서 뽑아야 할 <span class="point">사람</span></h2>
           <span class="logo"><img src="@/assets/img/logo-black.png" alt="검정조승혁" /></span>
         </div>
         <ul class="about-detail">
           <li class="about-me flex-set">
             <img src="@/assets/img/port8-1.png" alt="웃는승혁" />
             <div class="about-me__text flex-set">
-              <div class="who font24">Who is this guy?</div>
+              <div class="who font24" data-aos="fade-right" data-aos-duration="1000">Who is this guy?</div>
               <p>
                 1994년 6월 3일 출생, 현재 경기도 남양주시에 거주하고 있다.
                 <br />
@@ -32,54 +32,7 @@
             </div>
           </li>
           <li class="about-skills">
-            <div class="skill">
-              <div class="skill-percent">
-                <div class="skill-name flex-set">HTML</div>
-              </div>
-              <span class="percent">90%</span>
-            </div>
-            <div class="skill">
-              <div class="skill-percent">
-                <div class="skill-name flex-set">CSS</div>
-              </div>
-              <span class="percent">90%</span>
-            </div>
-            <div class="skill">
-              <div class="skill-percent">
-                <div class="skill-name flex-set">JavaScript</div>
-              </div>
-              <span class="percent">90%</span>
-            </div>
-            <div class="skill">
-              <div class="skill-percent skill-percent__50">
-                <div class="skill-name flex-set">Node.js</div>
-              </div>
-              <span class="percent">50%</span>
-            </div>
-            <div class="skill">
-              <div class="skill-percent skill-percent__50">
-                <div class="skill-name flex-set">PUG</div>
-              </div>
-              <span class="percent">50%</span>
-            </div>
-            <div class="skill">
-              <div class="skill-percent skill-percent__50">
-                <div class="skill-name flex-set">MySQL</div>
-              </div>
-              <span class="percent">50%</span>
-            </div>
-            <div class="skill">
-              <div class="skill-percent skill-percent__50">
-                <div class="skill-name flex-set">MongoDB</div>
-              </div>
-              <span class="percent">50%</span>
-            </div>
-            <div class="skill">
-              <div class="skill-percent skill-percent__40">
-                <div class="skill-name flex-set">Vue.js</div>
-              </div>
-              <span class="percent">40%</span>
-            </div>
+            <skill v-for="item in skill" :key="item" :name="item.name" :percent="item.percent" />
           </li>
         </ul>
       </div>
@@ -87,9 +40,50 @@
   </div>
 </template>
 <script>
-import { reactive } from "vue";
+import skill from "./skill.vue";
 export default {
-  setup() {},
+  components: {
+    skill,
+  },
+  setup() {
+    const skill = [
+      {
+        name: "HTML",
+        percent: 90,
+      },
+      {
+        name: "CSS",
+        percent: 90,
+      },
+      {
+        name: "JavaScript",
+        percent: 90,
+      },
+      {
+        name: "Node.js",
+        percent: 50,
+      },
+      {
+        name: "PUG",
+        percent: 50,
+      },
+      {
+        name: "MySQL",
+        percent: 50,
+      },
+      {
+        name: "MongoDB",
+        percent: 50,
+      },
+      {
+        name: "Vue.js",
+        percent: 40,
+      },
+    ];
+    return {
+      skill,
+    };
+  },
 };
 </script>
 <style scope></style>
