@@ -39,6 +39,7 @@
 </template>
 <script>
 import projectModule from './projectModuel.vue';
+// import modal from './modal.vue';
 export default {
   components: {
     projectModule,

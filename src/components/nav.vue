@@ -10,15 +10,15 @@
           <font-awesome-icon icon="fa-solid fa-bars" size="2x" />
         </div>
       </ul>
-      <!-- <div class="time">
+      <div class="time">
         <span>현재시간</span>
-        <span v-bind="getTime()">{{ getTime }}</span>
-      </div> -->
+        <span> {{ getFullTime }} </span>
+      </div>
     </nav>
   </div>
 </template>
 <script>
-import { reactive, computed } from 'vue';
+import { reactive, computed, ref, onMounted } from 'vue';
 export default {
   data() {
     return {
@@ -37,22 +37,23 @@ export default {
       }
     },
   },
-    setup() {
-    //   onmounted() {
-    //     const date = new.Date();
-    //     const getTime = function() {
-    //       const hours = String(date.getHours()).padStart(2,"0");
-    //       const minutes = String(date.getMinutes()).padStart(2,"0");
-    //       const seconds = String(date.getSeconds()).padStart(2,"0");
-    //     }
-    //     return {
-    //       getTime,
-    //       hours,
-    //       minutes,
-    //       seconds,
-    //     }
-    // },
-    },
+  setup() {
+    const getFullTime = ref('');
+    function getTime() {
+      const date = new Date();
+      const hours = String(date.getHours()).padStart(2, '0');
+      const minutes = String(date.getMinutes()).padStart(2, '0');
+      const seconds = String(date.getSeconds()).padStart(2, '0');
+      getFullTime.value = `${hours}:${minutes}:${seconds}`;
+    }
+    setInterval(() => {
+      getTime();
+    }, 1000);
+    onMounted(() => {});
+    return {
+      getFullTime,
+    };
+  },
 };
 </script>
 <style scope></style>
