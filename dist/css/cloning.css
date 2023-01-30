@@ -6,8 +6,6 @@
 .practice-img__message img {
   width: 358.6666px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  /* height: 300px; */
-  box-sizing: border-box;
 }
 
 .practice-img__message .kokoa-clone {
