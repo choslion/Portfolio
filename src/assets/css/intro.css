@@ -3,7 +3,7 @@
   position: relative;
   text-align: center;
   color: #fff;
-  background-image: url(../img/port2.jpg);
+  background-image: url(@/assets/img/port2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
