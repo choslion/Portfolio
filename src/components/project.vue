@@ -12,10 +12,10 @@
     </div>
   </div>
   <div>
-    <section class="section-project">
+    <section class="section-project" id="project">
       <div class="section-wrap">
         <div class="section-title">
-          <h1 class="title" id="project">Project</h1>
+          <h1 class="title">Project</h1>
           <div class="underLine"></div>
         </div>
         <project-module
