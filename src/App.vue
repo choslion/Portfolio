@@ -30,7 +30,6 @@ export default {
     project,
     cloning,
     contact,
-    AOS,
   },
   created() {
     AOS.init();

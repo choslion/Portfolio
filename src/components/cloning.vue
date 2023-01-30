@@ -5,7 +5,9 @@
         <h1 id="cloning" class="title">Practice</h1>
         <div class="underLine"></div>
       </div>
-      <cloningModule v-for="item in cloningModule" :key="item" :url="item.url" :img="item.img" />
+      <div class="practice-img__wrap">
+        <cloningModule v-for="item in cloningModule" :key="item" :url="item.url" :img="item.img" />
+      </div>
     </div>
   </div>
 </template>
@@ -40,7 +42,7 @@ export default {
         img: require(`@/assets/img/dosirak.png`),
       },
       {
-        url: "",
+        url: "https://choslion.github.io/richmond/",
         img: require(`@/assets/img/richmond.png`),
       },
       {
@@ -49,7 +51,15 @@ export default {
       },
       {
         url: "https://choslion.github.io/kokoa-clone/",
-        img: require(`@/assets/img/kokoa.jpg`),
+        img: require(`@/assets/img/kakao4.png`),
+      },
+      {
+        url: "https://choslion.github.io/kokoa-clone/",
+        img: require(`@/assets/img/kakao1.png`),
+      },
+      {
+        url: "https://choslion.github.io/kokoa-clone/",
+        img: require(`@/assets/img/kakao2.png`),
       },
     ];
     return {

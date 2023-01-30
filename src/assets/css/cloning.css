@@ -8,17 +8,13 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.practice-img__message .kokoa-clone {
-  width: 1076px;
-}
-
 @media screen and (max-width: 1156px) {
   .practice-img__wrap {
     justify-content: center;
   }
 
-  .practice-img__message .kokoa-clone {
-    width: 717px;
+  .practice-img__message:nth-child(8) {
+    display: none;
   }
 }
 
@@ -27,8 +23,8 @@
     box-shadow: 0 4px 4px -3px black;
     margin-bottom: 10px;
   }
-  .practice-img__message .kokoa-clone {
-    width: 358.66px;
+  .practice-img__message:last-child {
+    display: none;
   }
 }
 
@@ -37,7 +33,7 @@
     width: 280px;
   }
 
-  .practice-img__message .kokoa-clone {
-    width: 280px;
+  .practice-img__message:last-child {
+    display: none;
   }
 }
