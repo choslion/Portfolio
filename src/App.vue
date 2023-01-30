@@ -21,7 +21,6 @@ import contact from './components/contact.vue';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import { onMounted } from 'vue';
 export default {
   name: 'App',
   components: {
@@ -33,10 +32,8 @@ export default {
     contact,
     AOS,
   },
-  setup() {
-    onMounted(() => {
-      AOS.init();
-    });
+  created() {
+    AOS.init();
   },
 };
 </script>

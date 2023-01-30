@@ -3,7 +3,7 @@
     <section class="section-about">
       <div class="section-wrap">
         <div class="section-title">
-          <h1 id="about" class="title" data-aos="fade">About</h1>
+          <h1 id="about" class="title" data-aos="fade" data-aos-duration="700" data-aos-offset="800">About</h1>
           <div class="underLine"></div>
         </div>
         <div class="appeal">

@@ -16,9 +16,9 @@
           <font-awesome-icon icon="fa-solid fa-right-long" />
         </div>
       </div>
-      <div class="quotes">
-        <h3 class="quote" data-aos="fade">{{ randomQuotes.quote }}</h3>
-        <h4 class="author" data-aos="fade">{{ randomQuotes.author }}</h4>
+      <div class="quotes" data-aos="fade-up" data-aos-duration="700" data-aos-offset="100">
+        <h3 class="quote">{{ randomQuotes.quote }}</h3>
+        <h4 class="author">{{ randomQuotes.author }}</h4>
       </div>
     </section>
   </div>
