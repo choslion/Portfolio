@@ -61,7 +61,7 @@ nav {
 }
 
 .time {
-  margin-right: 50px;
+  margin-right: 120px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -76,5 +76,8 @@ nav {
   .mo-nav {
     display: block;
     margin-left: 50px;
+  }
+  .time {
+    margin-right: 50px;
   }
 }
