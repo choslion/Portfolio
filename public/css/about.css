@@ -97,9 +97,17 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 90%;
+  width: 85%;
   height: 100%;
   background-color: #00a1a7;
+}
+
+.skill-percent__50 {
+  width: 60%;
+}
+
+.skill-percent__40 {
+  width: 50%;
 }
 
 .skill-name {

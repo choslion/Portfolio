@@ -51,31 +51,31 @@
               <span class="percent">90%</span>
             </div>
             <div class="skill">
-              <div class="skill-percent">
+              <div class="skill-percent skill-percent__50">
                 <div class="skill-name flex-set">Node.js</div>
               </div>
               <span class="percent">50%</span>
             </div>
             <div class="skill">
-              <div class="skill-percent">
+              <div class="skill-percent skill-percent__50">
                 <div class="skill-name flex-set">PUG</div>
               </div>
               <span class="percent">50%</span>
             </div>
             <div class="skill">
-              <div class="skill-percent">
+              <div class="skill-percent skill-percent__50">
                 <div class="skill-name flex-set">MySQL</div>
               </div>
               <span class="percent">50%</span>
             </div>
             <div class="skill">
-              <div class="skill-percent">
+              <div class="skill-percent skill-percent__50">
                 <div class="skill-name flex-set">MongoDB</div>
               </div>
               <span class="percent">50%</span>
             </div>
             <div class="skill">
-              <div class="skill-percent">
+              <div class="skill-percent skill-percent__40">
                 <div class="skill-name flex-set">Vue.js</div>
               </div>
               <span class="percent">40%</span>

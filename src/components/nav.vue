@@ -2,10 +2,10 @@
   <div class="nav-wrap">
     <nav>
       <div id="mySidenav" class="sideNav" v-show="open == true">
-        <a href="#" v-on:click="goSection" data-target="about" class="toSection">About</a>
-        <a href="#" v-on:click="goSection" data-target="project" class="toSection">Project</a>
-        <a href="#" v-on:click="goSection" data-target="cloning" class="toSection">Practice</a>
-        <a href="#" v-on:click="goSection" data-target="contact" class="toSection">Contact</a>
+        <a href="#" v-on:click="goSection" data-target="about" class="toSection" @click="open = false">About</a>
+        <a href="#" v-on:click="goSection" data-target="project" class="toSection" @click="open = false">Project</a>
+        <a href="#" v-on:click="goSection" data-target="cloning" class="toSection" @click="open = false">Practice</a>
+        <a href="#" v-on:click="goSection" data-target="contact" class="toSection" @click="open = false">Contact</a>
       </div>
       <ul class="nav-menu">
         <li v-on:click="goSection" data-target="about" class="toSection">About</li>
@@ -17,7 +17,6 @@
         <font-awesome-icon v-on:click="openNav" icon="fa-solid fa-bars" size="2x" />
       </div>
       <div class="time">
-        <span>현재시간</span>
         <span> {{ getFullTime }} </span>
       </div>
     </nav>
@@ -55,7 +54,9 @@ export default {
       open.value = !open.value;
     };
     const sideNav = function () {};
-    onMounted(() => {});
+    onMounted(() => {
+      getTime();
+    });
     return {
       open,
       getFullTime,
@@ -67,7 +68,7 @@ export default {
 </script>
 <style scope>
 .sideNav {
-  width: 400px;
+  width: 100%;
   height: 50px;
   background-color: #555555;
   position: absolute;
