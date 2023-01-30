@@ -13,11 +13,11 @@
         </div>
         <div class="appeal-second">
           <h2 class="appeal-text appeal-point" data-aos="zoom-out-up" data-aos-duration="1500" data-aos-offset="700">그래서 뽑아야 할 <span class="point">사람</span></h2>
-          <span class="logo"><img src="img/logo-black.png" alt="검정조승혁" /></span>
+          <span class="logo"><img src="@/assets/img/logo-black.png" alt="검정조승혁" /></span>
         </div>
         <ul class="about-detail">
           <li class="about-me flex-set">
-            <img src="img/port8-1.png" alt="웃는승혁" />
+            <img src="@/assets/img/port8-1.png" alt="웃는승혁" />
             <div class="about-me__text flex-set">
               <div class="who font24">Who is this guy?</div>
               <p>

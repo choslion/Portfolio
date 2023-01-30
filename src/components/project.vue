@@ -2,13 +2,13 @@
   <div class="modal" v-if="kibuttz == true">
     <button><font-awesome-icon @click="kibuttz = false" icon="fa-regular fa-circle-xmark" size="3x" /></button>
     <div class="flex-set">
-      <img src="img/kibuttz.png" alt="키부츠코리아 설명" />
+      <img src="@/assets/img/kibuttz.png" alt="키부츠코리아 설명" />
     </div>
   </div>
   <div class="modal" v-if="takju == true">
     <button><font-awesome-icon @click="takju = false" icon="fa-regular fa-circle-xmark" size="3x" /></button>
     <div class="flex-set">
-      <img src="img/seoul.png" alt="서울탁주 설명" />
+      <img src="@/assets/img/seoul.png" alt="서울탁주 설명" />
     </div>
   </div>
   <div>
@@ -56,7 +56,7 @@ export default {
       {
         title: '키부츠코리아',
         date: '2022.11 ~ 2022.12 (개인프로젝트)',
-        img: require(`../../public/img/kibuttzMain.png`),
+        img: require(`@/assets/img/kibuttzMain.png`),
         introduce:
           '저의 첫 개인 프로젝트 입니다. 독자적인 사이트를 가지고 리뉴얼 해보는것을 경험하였고 MySQL, EJS템플릿을 이용한 모듈화, Node.js를 이용한 서버열기를 처음으로 해보았던 프로젝트 입니다.',
         feeling:
@@ -71,7 +71,7 @@ export default {
       {
         title: '서울탁주',
         date: '2022.11 ~ 2022.12 (팀프로젝트)',
-        img: require(`../../public/img/seoulTakjuMain.png`),
+        img: require(`@/assets/img/seoulTakjuMain.png`),
         introduce:
           '첫 팀프로젝트 입니다. 팀의 조장을 맡아 여러 사람의 의견이 잘 어우러지게 사이트를 제작하였습니다.제가 맡은 부분은 메인페이지, 카카오맵 Api를 받아 지도 가져오기 그리고 MySQL을 node.js 와 연동해 DB의 정보를 가져올 수 있는 게시판을 만들었습니다. 또한 git을 이용해 데이터를 주고 받아보는 경험을 하였습니다.',
         feeling: '사람이 서로 소통하며 작업하는것 , 그 과정 속에서 긍정적인 생각과 태도가 얼마나 중요한 일인지 알게 되었습니다.',
@@ -85,7 +85,7 @@ export default {
       {
         title: '승혁의 유튜브',
         date: '2022.12 ~ 2023.2 (개인프로젝트)',
-        img: require(`../../public/img/kibuttzMain.png`),
+        img: require(`@/assets/img/kibuttzMain.png`),
         introduce: '노마드코더의 유튜브 클론코딩 수업을 들으며 Pug, Mongo, ES6 , 다양한 npm에 대해 알게 되고 연습해본 사이트입니다.',
         feeling: '템플릿끼리 문법은 비슷한게 많구나 라고 생각하였고 백엔드 개발자가 하는일이 무엇인지 알게 되어서 좋았습니다.',
         contribution: '100%',

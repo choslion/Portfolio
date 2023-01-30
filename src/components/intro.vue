@@ -4,7 +4,7 @@
       <!-- <div class="intro-bg"></div> -->
       <div class="flex">
         <h1 class="logo">
-          <a href=""><img src="img/logo-white.png" alt="하얀조승혁" /></a>
+          <a href=""><img src="@/assets/img/logo-white.png" alt="하얀조승혁" /></a>
         </h1>
         <h1 class="intro-text">
           안녕하세요, 저는 <span class="point">조승혁</span> 입니다.
