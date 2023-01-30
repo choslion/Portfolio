@@ -3,7 +3,7 @@
     <section class="section-about">
       <div class="section-wrap">
         <div class="section-title">
-          <h1 id="about" class="title">About</h1>
+          <h1 id="about" class="title" data-aos="fade">About</h1>
           <div class="underLine"></div>
         </div>
         <div class="appeal">
@@ -89,42 +89,7 @@
 <script>
 import { reactive } from 'vue';
 export default {
-  setup() {
-    const skillBar = reactive([
-      {
-        skill: 'HTML',
-        percent: '90%',
-      },
-      {
-        skill: 'CSS',
-        percent: '90%',
-      },
-      {
-        skill: 'Javascript',
-        percent: '90%',
-      },
-      {
-        skill: 'Node.js',
-        percent: '50%',
-      },
-      {
-        skill: 'PUG',
-        percent: '50%',
-      },
-      {
-        skill: 'MySQL',
-        percent: '50%',
-      },
-      {
-        skill: 'MongoDB',
-        percent: '50%',
-      },
-      {
-        skill: 'Vue.js',
-        percent: '40%',
-      },
-    ]);
-  },
+  setup() {},
 };
 </script>
 <style scope></style>

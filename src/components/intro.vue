@@ -17,8 +17,8 @@
         </div>
       </div>
       <div class="quotes">
-        <h3 class="quote">{{ randomQuotes.quote }}</h3>
-        <h4 class="author">{{ randomQuotes.author }}</h4>
+        <h3 class="quote" data-aos="fade">{{ randomQuotes.quote }}</h3>
+        <h4 class="author" data-aos="fade">{{ randomQuotes.author }}</h4>
       </div>
     </section>
   </div>
