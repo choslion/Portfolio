@@ -5,37 +5,55 @@
         <h1 id="cloning" class="title">Practice</h1>
         <div class="underLine"></div>
       </div>
-      <div class="practice-img__wrap">
-        <div class="practice-img__message">
-          <img src="img/randomGame.png" alt="랜덤게임" />
-        </div>
-        <div class="practice-img__message">
-          <img src="img/seomoon.png" alt="서문야시장" />
-        </div>
-        <div class="practice-img__message">
-          <img src="img/freshMain.png" alt="싱그러운집" />
-        </div>
-        <div class="practice-img__message">
-          <img src="img/dosirak.png" alt="도시락통" />
-        </div>
-        <div class="practice-img__message">
-          <img src="img/richmond.png" alt="리치먼드" />
-        </div>
-        <div class="practice-img__message">
-          <img src="img/fillerBg.png" alt="승혁의 유튜브" />
-        </div>
-        <div class="practice-img__message">
-          <img class="kokoa-clone" src="img/kokoa.jpg" alt="카카오톡 클론" />
-        </div>
-      </div>
+      <cloningModule v-for="item in cloningModule" :key="item" :url="item.url" :img="item.img" />
     </div>
   </div>
 </template>
 <script>
+import cloningModule from './cloningModule.vue';
 export default {
+  components: {
+    cloningModule,
+  },
   data() {
     return {
       arco: false,
+    };
+  },
+
+  setup() {
+    const cloningModule = [
+      {
+        url: 'https://choslion.github.io/jschallenge/random.html',
+        img: require(`../../public/img/randomGame.png`),
+      },
+      {
+        url: '',
+        img: require(`../../public/img/seomoon.png`),
+      },
+      {
+        url: '',
+        img: require(`../../public/img/freshMain.png`),
+      },
+      {
+        url: '',
+        img: require(`../../public/img/dosirak.png`),
+      },
+      {
+        url: '',
+        img: require(`../../public/img/richmond.png`),
+      },
+      {
+        url: '',
+        img: require(`../../public/img/fillerBg.png`),
+      },
+      {
+        url: 'https://choslion.github.io/kokoa-clone/',
+        img: require(`../../public/img/kokoa.png`),
+      },
+    ];
+    return {
+      cloningModule,
     };
   },
 };

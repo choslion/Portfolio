@@ -120,8 +120,25 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
+  .section-project .project-wrap {
+    /* margin: 0 auto 2rem; */
+    padding: 1rem;
+    position: relative;
+  }
+
   .project-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .project-date {
+    font-size: 0.9rem;
+  }
+
+  .project-info__imgs {
+    margin: 0 0 1rem 0;
+  }
+  .project-info__contents {
+    font-size: 0.7rem;
   }
 }

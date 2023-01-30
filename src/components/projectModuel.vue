@@ -8,7 +8,7 @@
           <img :src="img" alt="키부츠메인" />
         </div>
         <div class="project-info__contents">
-          <div style="font-size: 1rem">
+          <div>
             <div>
               {{ introduce }}
               <p>{{ feeling }}</p>
