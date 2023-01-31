@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="skill">
-      <div v-bind:percent="{ percent }" class="skill-percent">
+      <div :style="{ 'width': percent + '%' }" class="skill-percent">
         <div class="skill-name flex-set">{{ name }}</div>
       </div>
       <span class="percent">{{ percent }}%</span>

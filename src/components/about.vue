@@ -27,7 +27,7 @@
                 <br />
                 MBTI 는 ESTP(에너지 넘치는 문제해결사)이며 꿈은 웹 개발자이다.
               </p>
-              <span># 이스라엘 해외봉사 활동 # GS25 점장</span>
+              <span># 이스라엘 해외봉사 활동 # GS25 점포관리</span>
               <span># 그린컴퓨터학원 뷰(Vue)활용 프론트엔드 웹개발자 양성과정 수료</span>
             </div>
           </li>
@@ -40,7 +40,7 @@
   </div>
 </template>
 <script>
-import skill from "./skill.vue";
+import skill from './skill.vue';
 export default {
   components: {
     skill,
@@ -48,35 +48,35 @@ export default {
   setup() {
     const skill = [
       {
-        name: "HTML",
+        name: 'HTML',
         percent: 90,
       },
       {
-        name: "CSS",
+        name: 'CSS',
         percent: 90,
       },
       {
-        name: "JavaScript",
+        name: 'JavaScript',
         percent: 90,
       },
       {
-        name: "Node.js",
+        name: 'Node.js',
         percent: 50,
       },
       {
-        name: "PUG",
+        name: 'PUG',
         percent: 50,
       },
       {
-        name: "MySQL",
+        name: 'MySQL',
         percent: 50,
       },
       {
-        name: "MongoDB",
+        name: 'MongoDB',
         percent: 50,
       },
       {
-        name: "Vue.js",
+        name: 'Vue.js',
         percent: 40,
       },
     ];
