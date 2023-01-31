@@ -41,6 +41,7 @@
 </template>
 <script>
 import skill from './skill.vue';
+import { onMounted } from '@vue/runtime-core';
 export default {
   components: {
     skill,
@@ -80,6 +81,23 @@ export default {
         percent: 40,
       },
     ];
+    onMounted(() => {
+      const handleScroll = () => {
+        const scrollY = window.scrollY;
+        const appealSecond = document.querySelector('.appeal-second');
+        if (scrollY > appealSecond.offsetTop) {
+          execute();
+        }
+      };
+      window.addEventListener('scroll', handleScroll);
+      const execute = function () {
+        const skillBar = document.querySelectorAll('.skill-percent');
+        for (let i = 0; i < skillBar.length; i++) {
+          skillBar[i].style.width = `${skill[i].percent}%`;
+        }
+      };
+      // setTimeout(execute, 500);
+    });
     return {
       skill,
     };
