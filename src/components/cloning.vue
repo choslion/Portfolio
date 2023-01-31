@@ -12,7 +12,7 @@
   </div>
 </template>
 <script>
-import cloningModule from "./cloningModule.vue";
+import cloningModule from './cloningModule.vue';
 export default {
   components: {
     cloningModule,
@@ -26,39 +26,39 @@ export default {
   setup() {
     const cloningModule = [
       {
-        url: "https://choslion.github.io/jschallenge/random.html",
+        url: 'https://choslion.github.io/jschallenge/random.html',
         img: require(`@/assets/img/randomGame.png`),
       },
       {
-        url: "",
+        url: '',
         img: require(`@/assets/img/seomoon.png`),
       },
       {
-        url: "",
+        url: 'https://choslion.github.io/housefresh/',
         img: require(`@/assets/img/freshMain.png`),
       },
       {
-        url: "",
+        url: '',
         img: require(`@/assets/img/dosirak.png`),
       },
       {
-        url: "https://choslion.github.io/richmond/",
+        url: 'https://choslion.github.io/richmond/',
         img: require(`@/assets/img/richmond.png`),
       },
       {
-        url: "",
+        url: '',
         img: require(`@/assets/img/fillerBg.png`),
       },
       {
-        url: "https://choslion.github.io/kokoa-clone/",
+        url: 'https://choslion.github.io/kokoa-clone/',
         img: require(`@/assets/img/kakao4.png`),
       },
       {
-        url: "https://choslion.github.io/kokoa-clone/",
+        url: 'https://choslion.github.io/kokoa-clone/',
         img: require(`@/assets/img/kakao1.png`),
       },
       {
-        url: "https://choslion.github.io/kokoa-clone/",
+        url: 'https://choslion.github.io/kokoa-clone/',
         img: require(`@/assets/img/kakao2.png`),
       },
     ];
