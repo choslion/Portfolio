@@ -96,7 +96,6 @@ export default {
           skillBar[i].style.width = `${skill[i].percent}%`;
         }
       };
-      // setTimeout(execute, 500);
     });
     return {
       skill,
