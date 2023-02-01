@@ -1,5 +1,5 @@
 <template>
-  <div>0
+  <div>
     <transition-group>
       <!-- :style="{ 'width': percent + '%' }" -->
       <div class="skill">
