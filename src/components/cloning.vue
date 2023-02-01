@@ -30,7 +30,7 @@ export default {
         img: require(`@/assets/img/randomGame.png`),
       },
       {
-        url: '',
+        url: 'https://choslion.github.io/seomoon/',
         img: require(`@/assets/img/seomoon.png`),
       },
       {
@@ -38,7 +38,7 @@ export default {
         img: require(`@/assets/img/freshMain.png`),
       },
       {
-        url: 'https://choslion.github.io/dosirak',
+        url: 'https://choslion.github.io/dosirak/',
         img: require(`@/assets/img/dosirak.png`),
       },
       {
@@ -46,8 +46,8 @@ export default {
         img: require(`@/assets/img/richmond.png`),
       },
       {
-        url: '',
-        img: require(`@/assets/img/fillerBg.png`),
+        url: 'https://choslion.github.io/jschallenge/log.html',
+        img: require(`@/assets/img/todo.png`),
       },
       {
         url: 'https://choslion.github.io/kokoa-clone/',
