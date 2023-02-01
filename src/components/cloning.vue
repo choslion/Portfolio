@@ -38,7 +38,7 @@ export default {
         img: require(`@/assets/img/freshMain.png`),
       },
       {
-        url: '',
+        url: 'https://choslion.github.io/dosirak',
         img: require(`@/assets/img/dosirak.png`),
       },
       {
