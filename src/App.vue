@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- <link rel="stylesheet" href="@/assets/css/index.css" /> -->
     <intro id="intro" />
     <navMenu />
     <about id="about" />

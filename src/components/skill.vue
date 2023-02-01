@@ -1,6 +1,5 @@
 <template>
-  <!-- <MyComponent :class="{ active: isActive }" /> -->
-  <div>
+  <div>0
     <transition-group>
       <!-- :style="{ 'width': percent + '%' }" -->
       <div class="skill">
