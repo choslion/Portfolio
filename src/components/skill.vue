@@ -1,14 +1,12 @@
 <template>
   <div>
-    <transition-group>
-      <!-- :style="{ 'width': percent + '%' }" -->
-      <div class="skill">
-        <div class="skill-percent">
-          <div class="skill-name flex-set">{{ name }}</div>
-        </div>
-        <span class="percent">{{ percent }}%</span>
+    <!-- :style="{ 'width': percent + '%' }" -->
+    <div class="skill">
+      <div class="skill-percent">
+        <div class="skill-name flex-set">{{ name }}</div>
       </div>
-    </transition-group>
+      <span class="percent">{{ percent }}%</span>
+    </div>
   </div>
 </template>
 <script>

@@ -1,17 +1,6 @@
 <template>
-  <div class="modal" v-if="kibuttz == true">
-    <button><font-awesome-icon @click="kibuttz = false" icon="fa-regular fa-circle-xmark" size="3x" /></button>
-    <div class="flex-set">
-      <img src="@/assets/img/kibuttz.png" alt="키부츠코리아 설명" />
-    </div>
-  </div>
-  <div class="modal" v-if="takju == true">
-    <button><font-awesome-icon @click="takju = false" icon="fa-regular fa-circle-xmark" size="3x" /></button>
-    <div class="flex-set">
-      <img src="@/assets/img/seoul.png" alt="서울탁주 설명" />
-    </div>
-  </div>
   <div>
+    <!-- <font-awesome-icon icon="fa-brands fa-figma" /> -->
     <section class="section-project" id="project">
       <div class="section-wrap">
         <div class="section-title">
@@ -44,12 +33,12 @@ export default {
   components: {
     projectModule,
   },
-  data() {
-    return {
-      kibuttz: false,
-      takju: false,
-    };
-  },
+  // data() {
+  //   return {
+  //     kibuttz: false,
+  //     takju: false,
+  //   };
+  // },
 
   setup() {
     const projectModuel = [
@@ -63,9 +52,9 @@ export default {
           '홈페이지 구조를 보고 이해하는 능력이 생겼고 백엔드 공부를 해봄으로써 백엔드 개발자의 업무를 조금이나마 알게 되어서 도움이 되었습니다. 또 페이지를 AWS와 연결해서 다른 사람의 컴퓨터에서 창을 띄웠을때 흥미를 많이 느꼈습니다.',
         contribution: '100%',
         mainFunc: '회원가입, 로그인, 게시글 작성, 정보전달',
-        url: '',
+        url: 'http://kibuttzkorea-env.eba-fpepbd9u.ap-northeast-2.elasticbeanstalk.com/',
         github: 'https://github.com/choslion/KibuttzKorea',
-        figma: '',
+        figma: 'https://i.esdrop.com/d/f/BhioNGHPJG/t6OGP8F9Gd.png',
         useSkills: 'HTML, CSS, JavaScript, MySQL, Node.js',
       },
       {
@@ -79,7 +68,7 @@ export default {
         mainFunc: '회원가입, 로그인, 게시글 작성, 정보전달',
         url: 'http://codebuild-seoultakju-service-role.ap-northeast-1.elasticbeanstalk.com/',
         github: 'https://github.com/choslion/seoulTakju-personal',
-        figma: '',
+        figma: 'https://i.esdrop.com/d/f/BhioNGHPJG/GzsXzPjkht.png',
         useSkills: 'HTML, CSS, JavaScript, MySQL, Node.js',
       },
       {
@@ -92,7 +81,7 @@ export default {
         mainFunc: '사용자 인증, 게시글 작성, 댓글 작성, 동영상 재생, 동영상 및 사용자 프로필 수정',
         url: '',
         github: 'https://github.com/choslion/wetube',
-        figma: '',
+        figma: '❌',
         useSkills: 'Pug, Mongo, ES6',
       },
     ];

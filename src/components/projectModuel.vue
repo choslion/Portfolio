@@ -1,4 +1,16 @@
 <template>
+  <div class="modal" v-if="kibuttz == true">
+    <button><font-awesome-icon @click="kibuttz = false" icon="fa-regular fa-circle-xmark" size="3x" /></button>
+    <div class="flex-set">
+      <img src="@/assets/img/kibuttz.png" alt="키부츠코리아 설명" />
+    </div>
+  </div>
+  <div class="modal" v-if="takju == true">
+    <button><font-awesome-icon @click="takju = false" icon="fa-regular fa-circle-xmark" size="3x" /></button>
+    <div class="flex-set">
+      <img src="@/assets/img/seoul.png" alt="서울탁주 설명" />
+    </div>
+  </div>
   <div>
     <div class="project-wrap">
       <div class="project-title">{{ title }}</div>
@@ -53,7 +65,7 @@
                 <span><font-awesome-icon icon="fa-solid fa-check" /></span>
                 <div class="project__main-func">목업</div>
               </div>
-              <div>
+              <div v-if="kibuttz == false">
                 <a :href="figma" target="_blank">{{ figma }}</a>
               </div>
             </li>
@@ -86,6 +98,12 @@ export default {
     github: String,
     figma: String,
     useSkills: String,
+  },
+  data() {
+    return {
+      kibuttz: false,
+      takju: false,
+    };
   },
 };
 </script>
