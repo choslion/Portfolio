@@ -91,6 +91,7 @@
   align-items: center;
   height: 28px;
   margin: 0 0 15px 0;
+  border-radius: 12px;
 }
 
 .skill-percent {
@@ -101,6 +102,7 @@
   transition: width 1.3s;
   height: 100%;
   background-color: #00a1a7;
+  border-radius: 12px;
 }
 
 .skill-name {
@@ -111,6 +113,7 @@
   height: 100%;
   color: #fff;
   background-color: #04c2c9;
+  border-radius: 12px;
 }
 
 .percent {
