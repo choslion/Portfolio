@@ -27,10 +27,10 @@ import { ref, onMounted } from 'vue';
 export default {
   methods: {
     goSection(e) {
-      e.preventDefault();
-      if (!e.target.matches('.toSection')) {
-        return;
-      }
+      // e.preventDefault();
+      // if (!e.target.matches('.toSection')) {
+      //   return;
+      // }
       const clickNav = document.getElementById(e.target.dataset.target);
       if (clickNav) {
         clickNav.scrollIntoView({ behavior: 'smooth' });
