@@ -23,6 +23,7 @@
   .practice-img__message img {
     box-shadow: 0 4px 4px -3px black;
     margin-bottom: 10px;
+    border-radius: 15px;
   }
   .practice-img__message:last-child {
     display: none;
