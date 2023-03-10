@@ -23,30 +23,30 @@
   </div>
 </template>
 <script>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted } from "vue";
 export default {
   methods: {
     goSection(e) {
       e.preventDefault();
-      if (!e.target.matches('.toSection')) {
+      if (!e.target.matches(".toSection")) {
         console.log(e.target);
         return;
       }
 
       const clickNav = document.getElementById(e.target.dataset.target);
       if (clickNav) {
-        clickNav.scrollIntoView({ behavior: 'smooth' });
+        clickNav.scrollIntoView({ behavior: "smooth" });
       }
     },
   },
   setup() {
     const open = ref(false);
-    const getFullTime = ref('');
+    const getFullTime = ref("");
     function getTime() {
       const date = new Date();
-      const hours = String(date.getHours()).padStart(2, '0');
-      const minutes = String(date.getMinutes()).padStart(2, '0');
-      const seconds = String(date.getSeconds()).padStart(2, '0');
+      const hours = String(date.getHours()).padStart(2, "0");
+      const minutes = String(date.getMinutes()).padStart(2, "0");
+      const seconds = String(date.getSeconds()).padStart(2, "0");
       getFullTime.value = `${hours}:${minutes}:${seconds}`;
     }
     setInterval(() => {

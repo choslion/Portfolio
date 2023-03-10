@@ -40,8 +40,8 @@
   </div>
 </template>
 <script>
-import skill from './skill.vue';
-import { onMounted } from '@vue/runtime-core';
+import skill from "./skill.vue";
+import { onMounted } from "@vue/runtime-core";
 export default {
   components: {
     skill,
@@ -49,49 +49,49 @@ export default {
   setup() {
     const skill = [
       {
-        name: 'HTML',
+        name: "HTML",
         percent: 90,
       },
       {
-        name: 'CSS',
+        name: "CSS",
         percent: 90,
       },
       {
-        name: 'JavaScript',
+        name: "JavaScript",
         percent: 90,
       },
       {
-        name: 'Node.js',
-        percent: 50,
-      },
-      {
-        name: 'PUG',
-        percent: 50,
-      },
-      {
-        name: 'MySQL',
-        percent: 50,
-      },
-      {
-        name: 'MongoDB',
-        percent: 50,
-      },
-      {
-        name: 'Vue.js',
+        name: "Node.js",
         percent: 40,
+      },
+      {
+        name: "MySQL",
+        percent: 40,
+      },
+      {
+        name: "Pug",
+        percent: 30,
+      },
+      {
+        name: "MongoDB",
+        percent: 30,
+      },
+      {
+        name: "Vue.js",
+        percent: 30,
       },
     ];
     onMounted(() => {
       const handleScroll = () => {
         const scrollY = window.scrollY;
-        const appealSecond = document.querySelector('.appeal-second');
+        const appealSecond = document.querySelector(".appeal-second");
         if (scrollY > appealSecond.offsetTop) {
           execute();
         }
       };
-      window.addEventListener('scroll', handleScroll);
+      window.addEventListener("scroll", handleScroll);
       const execute = function () {
-        const skillBar = document.querySelectorAll('.skill-percent');
+        const skillBar = document.querySelectorAll(".skill-percent");
         for (let i = 0; i < skillBar.length; i++) {
           skillBar[i].style.width = `${skill[i].percent}%`;
         }
